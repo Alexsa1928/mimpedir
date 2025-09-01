@@ -16,7 +16,7 @@ class DatabaseHelper{
 
     if(!File(caminho).existsSync()){
       ByteData data = await rootBundle.load('assets/$_nomeBanco');
-    List<int> bytes = data.buffer.asInt8List(data.offsetInBytes, data.lenghtInBytes);
+    List<int> bytes = data.buffer.asInt8List(data.offsetInBytes, data.lengthInBytes);
     await File(caminho).writeAsBytes(bytes);
   }
 
