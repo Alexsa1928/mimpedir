@@ -28,7 +28,7 @@ Widget build(BuildContext context){
           decoration: const InputDecoration(labelText:'Usuário'),
           controller: usuarioController,
         ),
-        const SizedBox(height: 20),
+        const SizedBox(height: 40),
         TextField(
           decoration: const InputDecoration(labelText: 'Senha'),
           obscureText: true,
